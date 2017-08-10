@@ -3,8 +3,7 @@ import {Button, View, Text, FlatList} from 'react-native'
 import {connect} from 'react-redux'
 import {StackNavigator} from 'react-navigation'
 
-
-export default class GhostRoom extends Component {
+class GhostRoom extends Component {
   logout(){
     fetch('/logout', {
       method: 'PUT',
@@ -52,20 +51,19 @@ const styles = StyleSheet.create({
     fontSize: 15,
     height: 44
   }
-  Text: {
-    color: red,
-  }
 })
 
 const mapStateToProps = (state) => ({
  token : state.token,
  roomCode: state.roomCode,
- username: state.username
+ username: state.username,
+ isAlive: isAlive
 })
 
 const mapDispatchToProps = (dispatch) => ({
- GhostRoom : (players) => {dispatch(GhostRoom(players))}
+GhostRoom : (deadPlayers) => {dispatch(newGhostRoom(deadPlayers))}
 })
+}
 
 const RoomConnector = connect(mapStateToProps, mapDispatchToProps)
 
