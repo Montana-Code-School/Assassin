@@ -57,9 +57,9 @@ export function kill(username, target){
   }
 }
 
-export function die(username){
+export function deceased(username){
   return {
-    type: 'die',
+    type: 'deceased',
     username,
     target
   }

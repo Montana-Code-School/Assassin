@@ -26,7 +26,7 @@ class GhostRoom extends Component {
 
   render(){
     const name = this.props.ghostRoom.map(name => (<Text> {name + '/n'} </Text>))
-     if(this.username.isAlive === 'false'){
+     if(this.username.alive === 'false'){
        return(
 
           <View>
@@ -57,7 +57,7 @@ const mapStateToProps = (state) => ({
  token : state.token,
  roomCode: state.roomCode,
  username: state.username,
- isAlive: isAlive
+ alive: alive
 })
 
 const mapDispatchToProps = (dispatch) => ({

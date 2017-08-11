@@ -47,9 +47,6 @@ export default function reducer(state, action){
           waitingPlayers: action.players,
           roomCreator: action.creator
         }
-    default:
-      return state
-  }
 }
 export default function reducer(state, action){
   switch(action.type){
@@ -107,11 +104,11 @@ export default function reducer(state, action){
           target: action.target,
           username: action.username
         }
-        case 'die':
+        case 'deceased':
         console.log("a death has occurred", action)
           return {
             ...state,
-            isAlive: action.isAlive,
+            alive: action.alive,
             username: action.username
           }
           case 'newGhostRoom':
