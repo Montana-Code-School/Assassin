@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { AppRegistry, StyleSheet, Text, View,Button } from 'react-native';
 import { Provider } from 'react-redux'
 import BackgroundTimer from 'react-native-background-timer';
+import Authentication from "./components/Authentication"
 import Login from "./components/Login"
 import Logout from "./components/Logout"
 import Lobby from "./components/Lobby"
@@ -35,6 +36,7 @@ console.log('Login', Login)
 
   }
   const Navigator = StackNavigator({
+    Authentication: {screen: Authentication},
     Login: { screen: Login },
     Lobby: { screen: Header(Lobby) },
     Room: { screen: Header(Room) },

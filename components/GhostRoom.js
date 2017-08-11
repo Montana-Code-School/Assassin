@@ -1,34 +1,36 @@
 import React, {Component} from 'react'
-import {Button, View, Text, FlatList} from 'react-native'
+import {Button, View, Text, StyleSheet} from 'react-native'
 import {connect} from 'react-redux'
 import {StackNavigator} from 'react-navigation'
+import {apiUrl} from '../localConfig'
+
 
 class GhostRoom extends Component {
   logout(){
-    fetch('/logout', {
+    fetch(apiUrl + '/logout', {
       method: 'PUT',
       headers: {
         "Content-Type": 'application/json'
       },
-      body: JSON.stringify({username: this.username})
+      body: JSON.stringify({username: this.props.username})
     })
   }
 
   RIP(){
-    fetch('/bringOutYerDead', {
+    fetch(apiUrl + '/bringOutYerDead', {
       method: 'PUT',
       headers: {
         "Content-Type": 'application/json'
       },
-      body: JSON.stringify({username: this.username})
+      body: JSON.stringify({username: this.props.username})
     })
   }
 
   render(){
-    const name = this.props.ghostRoom.map(name => (<Text> {name + '/n'} </Text>))
-     if(this.username.alive === 'false'){
-       return(
 
+    const names = 'bob' //this.props.ghostRoom.map(name => (<Text> {name + '/n'} </Text>))
+
+       return(
           <View>
             <View>
               <Text>The Fallen: {names}</Text>
@@ -36,21 +38,13 @@ class GhostRoom extends Component {
               <Text>Abandon All Hope Ye Who Enter Here!</Text>
               <Button onPress={() => this.props.logout} title={'LogOut'}/>
             </View>
-            <Text>Into the eternal darkness, into fire and ice...</Text>
+            <Text>Into the eternal darkness, into fire and ice...I regret to inform you that you have been eliminated.  If you
+            wish, you may remain here and watch for the last heir.</Text>
           </View>
           )
-      }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingTop: 22
-  },
-  item: {
-    padding: 10,
-    fontSize: 15,
-    height: 44
+    }
   }
+
 })
 
 const mapStateToProps = (state) => ({
@@ -61,7 +55,9 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = (dispatch) => ({
+
 GhostRoom : (deadPlayers) => {dispatch(newGhostRoom(deadPlayers))}
+
 })
 }
 

@@ -4,7 +4,9 @@ import reducer from './reducer'
 
 const defaultState = {
 	waitingPlayers: [],
+
 	deadPlayers: []
+
 }
 
 export default createStore(reducer, defaultState)

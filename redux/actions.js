@@ -49,6 +49,7 @@ export function newPlayersWaiting(players, creator){
   }
 }
 
+
 export function kill(username, target){
   return {
     type: 'kill',
@@ -74,3 +75,4 @@ export function newGhostRoom(deadPlayers){
 }
 
 export function ghostRoom
+
