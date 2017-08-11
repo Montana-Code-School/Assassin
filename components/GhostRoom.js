@@ -27,7 +27,9 @@ class GhostRoom extends Component {
   }
 
   render(){
+
     const names = 'bob' //this.props.ghostRoom.map(name => (<Text> {name + '/n'} </Text>))
+
        return(
           <View>
             <View>
@@ -42,30 +44,22 @@ class GhostRoom extends Component {
           )
     }
   }
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     paddingTop: 22
-//   },
-//   item: {
-//     padding: 10,
-//     fontSize: 15,
-//     height: 44
-//   }
-//   Text: {
-//     color: red,
-//   }
-// })
+
+})
 
 const mapStateToProps = (state) => ({
  token : state.token,
  roomCode: state.roomCode,
- username: state.username
+ username: state.username,
+ alive: alive
 })
 
 const mapDispatchToProps = (dispatch) => ({
- ghostRoom : (deadPlayers) => {dispatch(newGhostRoom(deadPlayers))}
+
+GhostRoom : (deadPlayers) => {dispatch(newGhostRoom(deadPlayers))}
+
 })
+}
 
 const RoomConnector = connect(mapStateToProps, mapDispatchToProps)
 

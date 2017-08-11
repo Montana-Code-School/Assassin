@@ -47,6 +47,7 @@ export default function reducer(state, action){
           waitingPlayers: action.players,
           roomCreator: action.creator
         }
+
       case 'newGhostRoom':
         return {
           ...state,
@@ -61,6 +62,7 @@ export default function reducer(state, action){
           targetDistance: state.target.distance,
 
         }
+
     default:
       return state
   }
