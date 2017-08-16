@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Button, View, Text, TouchableOpacity, StyleSheet, Alert} from 'react-native'
+import {Button, View, Text, TouchableOpacity, StyleSheet} from 'react-native'
 import {connect} from 'react-redux'
 import {StackNavigator} from 'react-navigation'
 import Compass from './GameComponents/CompassComponents/Compass'
@@ -29,9 +29,12 @@ class Game extends Component {
                                 })
           })
           .then(response => response.json())
-          .then(result => console.log("RESULT ", result))
+          .then(result => {
+            console.log("RESULT ", result)
+          })
           .then(()=>{
             console.log("timeNOT? lat? lng? ", self.props.latitude, self.props.longitude)
+
             fetch(apiUrl + `/user/game/data/${self.props.username}`,{
               method: 'GET',
               headers: {
@@ -99,10 +102,12 @@ class Game extends Component {
 
   render(){
     return (
+
       <View style = {styles.container}>
 
         <Button title='Rules' onPress={()=> Alert.alert('Rules',
           `Be advised that Mother has laid out a set of rules in her last will and testament.  The rules must be
+
           followed and obeyed or you will be disqualified from the pool of potential heirs. Mother has gifted you with a
           locator to aid you in your quest.  I must also disclose that you have also been tagged with a locator and are
           being hunted. Do not attempt to locate or disarm your locator. Doing so will disqualify and eliminate you from
@@ -111,6 +116,7 @@ class Game extends Component {
           radius is smaller than the target radius, which you will also recieve when your target is near. This means, of
           course, that your hunter will see you before you see them. The final rule: If you do not stay active on your phone
           for at least 3 hours per day, you will be permanently and irrevocably eliminated from inheritance.
+
         Stay alert, stay safe, stay alive.`)}></Button>
 
         <Button color = 'darkred' style = {styles.button} onPress={()=>this.props.navigation.navigate('GhostRoom')} title={'You Are Dead'}/>
@@ -124,12 +130,15 @@ class Game extends Component {
 
 var styles = StyleSheet.create({
   container: {
+
     backgroundColor: 'black',
   },
   button: {
+ 
     backgroundColor: 'darkred',
   },
   words: {
+
     color: 'white',
   }
 })
