@@ -7,25 +7,25 @@
 requires:
 - Node.js version 8.0 and above
 ```bash
-brew install node
+$ brew install node
 ```
 - mysql
 ```bash
-brew install mysql
+$ brew install mysql
 ```
 - yarn
 ```bash
-brew install yarn
+$ brew install yarn
 ```
 - Java
 ```bash
-brew cask install java
+$ brew cask install java
 ```
 - nodemon
 ```bash
-yarn global add nodemon
+$ yarn global add nodemon
 or
-npm install nodemon -g
+$ npm install nodemon -g
 ```
 ___
 
@@ -38,8 +38,8 @@ Clone repo
 
 
 ```bash
-cd Assassin
-yarn install
+$ cd Assassin
+$ yarn install
 ```
 
 ## Running the App
@@ -50,20 +50,20 @@ Phone must be in development mode with debuggin on
 ___
  Instantiate the localConfig.js File
  ```bash
-./configStartUp.sh
+$ ./configStartUp.sh
  ```
 
  Start mysql server
 
  ```bash
- mysql.server start
+ $ mysql.server start
  ```
 
  Starting server
 
 ```bash
-cd Server
-nodemon server.js
+$ cd Server
+$ nodemon server.js
 ```
 Should see text pop up:
 
@@ -79,7 +79,7 @@ The server is working on Port 3001
 In seperate terminal window in root Assassin directory start the application
 
 ```bash
-yarn android
+$ yarn android
 ```
 
 
