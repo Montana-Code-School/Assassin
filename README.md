@@ -32,15 +32,15 @@ Sleep nap you call this cat food. Step on your keyboard while you're gaming an
  well… here there be dragons…
 
 ## <a name="Team"></a>Team Structure
- - Quinn Bruderer   --  Project Manager / frontend
- - Tim Kornish      -- Assistant Project Manager / lead backend engineer
- - Cian Hohman      --  Assistant Project Manager / security specialist
- - Kelsey Iverson   --  Full Stack bug sqasher / timer/navigation
- - Lauren Grinder   --  Full Stack
- - Shannon Dooling  --  Front end
- - Mike Koosman     --  Front end
- - Brenda Nichisch  --  Full Stack / copy expert
- - Thomas Elrod     --  Compass / lead android developer
+ - <p>Quinn Bruderer   --  Project Manager / frontend</p>
+ - <p>Tim Kornish      -- Assistant Project Manager / lead backend engineer</p>
+ - <p>Cian Hohman      --  Assistant Project Manager / security specialist</p>
+ - <p>Kelsey Iverson   --  Full Stack bug sqasher / timer/navigation</p>
+ - <p>Lauren Grinder   --  Full Stack</p>
+ - <p>Shannon Dooling  --  Front end</p>
+ - <p>Mike Koosman     --  Front end</p>
+ - <p>Brenda Nichisch  --  Full Stack / copy expert</p>
+ - <p>Thomas Elrod     --  Compass / lead android developer</p>
 
 ## <a name="Git"></a>Git Structure
 Worked on personal branches
