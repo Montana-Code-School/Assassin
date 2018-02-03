@@ -23,7 +23,7 @@ npm install nodemon -g
 ```
 ___
 
-## Installation
+## Install Dependencies
 
 ### yarn is required (npm will not work)
 Clone repo
@@ -48,6 +48,16 @@ yarn install
 ```bash
 cd Server
 nodemon server.js
+```
+Should see text pop up:
+
+```bash
+[nodemon] 1.14.12
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node server.js`
+1. connecting to db:
+The server is working on Port 3001
 ```
 
 In seperate terminal window start the application
