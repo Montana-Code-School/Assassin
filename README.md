@@ -2,9 +2,14 @@
 
 ## Getting Started
 
+requires:
+- Node.js version 8.0 and above
+- Mysql
+- yarn
+- nodemon
 ___
 
-## Instalation
+## Installation
 
 ### yarn is required (npm will not work)
 Clone repo
@@ -17,6 +22,25 @@ cd Assassin
 yarn install
 ```
 
+## Running the App
+ Start mysql server
+
+ ```bash
+ mysql.server start
+ ```
+
+ Starting server
+
+```bash
+cd Server
+nodemon server.js
+```
+
+In seperate window start the application
+
+```bash
+yarn android
+```
 
 
 
