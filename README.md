@@ -14,7 +14,6 @@ Clone repo
 
 <code>
       cd Assassin
-
        yarn install
 </code>
 
