@@ -29,7 +29,7 @@ Sleep nap you call this cat food. Step on your keyboard while you're gaming an
 - Slack
 
 ## <a name="File-Structure"></a>File-Structure
- well… here there be dragons…
+ well… here there be dragons… (in a Scottish brogue)
 
 ## <a name="Team"></a>Team Structure
  - <p>Quinn Bruderer   --  Project Manager / frontend</p>
