@@ -11,12 +11,11 @@ Clone repo
 
 #### install dependencies with yarn
 
-<code>
+
 ```bash
 cd Assassin
 yarn install
 ```
-</code>
 
 
 
