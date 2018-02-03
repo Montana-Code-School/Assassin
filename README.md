@@ -1,6 +1,6 @@
 # Assassins
 
-# Getting Started
+## Getting Started
 
 IPHONE SUCKSSS
 ___
@@ -12,7 +12,9 @@ Clone repo
 
 #### install dependencies with yarn
 
-<code> ablah asldkfas </code>
+<code> cd Assassin
+       yarn install
+</code>
 
 
 
