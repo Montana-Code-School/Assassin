@@ -48,6 +48,11 @@ Make sure android phone is plugged in to computer and both devices are using sam
 
 Phone must be in development mode with debuggin on
 ___
+ Instantiate the localConfig.js File
+ ```bash
+./configStartUp.sh
+ ```
+
  Start mysql server
 
  ```bash
