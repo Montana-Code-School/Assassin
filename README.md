@@ -12,7 +12,8 @@ Clone repo
 
 #### install dependencies with yarn
 
-<code> cd Assassin
+<code>
+      cd Assassin
 
        yarn install
 </code>
