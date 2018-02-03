@@ -9,7 +9,7 @@ ___
 ### yarn is required (npm will not work)
 Clone repo
 
-#### install dependencies with yarn
+#### install dependencies from package.json with yarn
 
 
 ```bash
