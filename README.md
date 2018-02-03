@@ -4,9 +4,23 @@
 
 requires:
 - Node.js version 8.0 and above
-- Mysql
+```bash
+brew install node
+```
+- mysql
+```bash
+brew install mysql
+```
 - yarn
+```bash
+brew install yarn
+```
 - nodemon
+```bash
+yarn global add nodemon
+or
+npm install nodemon -g
+```
 ___
 
 ## Installation
@@ -36,7 +50,7 @@ cd Server
 nodemon server.js
 ```
 
-In seperate window start the application
+In seperate terminal window start the application
 
 ```bash
 yarn android
