@@ -1,12 +1,28 @@
 # Assassins
 
-waiting for Brenda's copy :) Please enjoy
+# Getting Started
+
+IPHONE SUCKSSS
+___
+
+## Instalation
+
+### yarn is required (npm will not work)
+Clone repo
+
+#### install dependencies with yarn
+
+<code> ablah asldkfas </code>
+
+
+
+
 
 Sleep nap you call this cat food. Step on your keyboard while you're gaming and then turn in a circle man running from cops stops to pet cats, goes to jail so hiding behind the couch until lured out by a feathery toy claw drapes purr for no reason lick butt and make a weird face. Sit by the fire. Spend all night ensuring people don't sleep sleep all day proudly present butt to human and flee in terror at cucumber discovered on floor. Human give me attention meow. Hide when guests come over howl uncontrollably for no reason so meowzer nap all day, but hack up furballs yet flee in terror at cucumber discovered on floor yet scream at teh bath. 
 
 ## Table of Contents
 1. [Technologies](#Technologies)
-2. [Team Structure](#Team)
+2. [Team Members](#Team)
 3. [File-Structure](#File-Structure)
 4. [Git Structure](#Git)
 5. [Schedule](#Schedule)
@@ -31,7 +47,7 @@ Sleep nap you call this cat food. Step on your keyboard while you're gaming an
 ## <a name="File-Structure"></a>File-Structure
  well… here there be dragons… (in a Scottish brogue)
 
-## <a name="Team"></a>Team Structure
+## <a name="Team"></a>Team Members
  - <p>Quinn Bruderer   --  Project Manager / frontend</p>
  - <p>Tim Kornish      -- Assistant Project Manager / lead backend engineer</p>
  - <p>Cian Hohman      --  Assistant Project Manager / security specialist</p>
