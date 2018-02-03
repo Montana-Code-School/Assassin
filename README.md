@@ -37,6 +37,11 @@ yarn install
 ```
 
 ## Running the App
+
+Make sure android phone is plugged in to computer and both devices are using same wifi
+
+Phone must be in development with debuggin on
+
  Start mysql server
 
  ```bash
@@ -60,7 +65,7 @@ Should see text pop up:
 The server is working on Port 3001
 ```
 
-In seperate terminal window start the application
+In seperate terminal window in root Assassin directory start the application
 
 ```bash
 yarn android
