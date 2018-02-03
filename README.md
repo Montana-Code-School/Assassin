@@ -1,5 +1,7 @@
 # Assassins
 
+
+
 ## Getting Started
 
 requires:
@@ -14,6 +16,10 @@ brew install mysql
 - yarn
 ```bash
 brew install yarn
+```
+- Java
+```bash
+brew cask install java
 ```
 - nodemon
 ```bash
@@ -40,7 +46,7 @@ yarn install
 
 Make sure android phone is plugged in to computer and both devices are using same wifi
 
-Phone must be in development with debuggin on
+Phone must be in development mode with debuggin on
 ___
  Start mysql server
 
