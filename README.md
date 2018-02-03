@@ -2,7 +2,6 @@
 
 ## Getting Started
 
-IPHONE SUCKSSS
 ___
 
 ## Instalation
@@ -13,9 +12,10 @@ Clone repo
 #### install dependencies with yarn
 
 <code>
-      cd Assassin
-      <br>
-       yarn install
+```bash
+cd Assassin
+yarn install
+```
 </code>
 
 
