@@ -85,7 +85,11 @@ $ yarn android
 
 
 
-Sleep nap you call this cat food. Step on your keyboard while you're gaming and then turn in a circle man running from cops stops to pet cats, goes to jail so hiding behind the couch until lured out by a feathery toy claw drapes purr for no reason lick butt and make a weird face. Sit by the fire. Spend all night ensuring people don't sleep sleep all day proudly present butt to human and flee in terror at cucumber discovered on floor. Human give me attention meow. Hide when guests come over howl uncontrollably for no reason so meowzer nap all day, but hack up furballs yet flee in terror at cucumber discovered on floor yet scream at teh bath. 
+This amazing game will take you back to your youth. Back in junior high when a group of friends wanted to play "Assassins" here is what we were working with: a live-action game in which players try to eliminate one another using mock weapons, in an effort to become the last surviving player... each time you killed your target, you recieved your oponents target, so on and so on. Gameplay occurs at all hours and in all places unless otherwise disallowed by the rules. Since an elimination attempt could occur at any time, successful players are obliged to develop a degree of watchful paranoia. 
+
+We revamped it with the help of android technology to have friends sign into a "debrief room" for thier mission. Each member is then given a target in which to "assassinate". When the timer starts counting down to "enter the game", you have 2 minutes to RUN. Once the game begins, as a player you will see a compass pointing in your anonomous targets direction(our app works off of geo-location). You must reach a radius of 20 meters in order for your "KILL BUTTON" to appear. If you kill your target, you will be assigned their target until only one player remains. 
+
+Good Luck. There is no safety, even at the grocery store or in the comfort of your living room. You are being hunted. 
 
 ## Table of Contents
 1. [Technologies](#Technologies)
